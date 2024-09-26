@@ -5,5 +5,10 @@
 const uniqueNumbers = new Set();
 
 // Your code here
+const randomNumArr = [1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6];
+
+randomNumArr.forEach(num => {
+  uniqueNumbers.add(num);
+})
 
 console.log(uniqueNumbers);
